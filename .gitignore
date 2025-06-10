@@ -266,3 +266,9 @@ cython_debug/
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+# Log Files
+*.log
+
+# local json files
+*.json
