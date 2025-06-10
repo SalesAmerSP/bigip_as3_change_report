@@ -17,14 +17,11 @@ This script generates a report of changes made to an AS3 configuration on a BIG-
 
 ## Output
 
-The script will output a report in Markdown format to the console. The report will include the following information:
-
-* The AS3 declaration(s) that were changed
-* The specific lines that were changed
-* The old and new values of the changed lines
+The script will output a report in JSON format to a file called as3_changge_report.json. 
 
 ## Example Output
 
+as3_change_report.json
 ```json
 {
     "results": [
